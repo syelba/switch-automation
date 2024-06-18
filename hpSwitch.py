@@ -5,8 +5,8 @@ import time
 hp_switch = {
     'device_type': 'hp_procurve',  # Device type for HP ProCurve/ArubaOS switches
     'host': '10.12.212.120',  # IP address of the switch
-    'username': 'ils',  # Username to login
-    'password': 'Pa$$w0rd',  # Password to login
+    'username': 'username',  # Username to login
+    'password': 'password',  # Password to login
     'port': 22,  # SSH port (default is 22)
 }
 
