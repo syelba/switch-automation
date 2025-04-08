@@ -18,7 +18,7 @@ class ConfigSwitch():
         }
 
 
-    def setSNTP(self):
+    def setSNTP_HP(self):
         setTime = [
             'configure',
             'time',
@@ -47,7 +47,7 @@ class ConfigSwitch():
 
     from netmiko import ConnectHandler
 
-def setSNMPV3(self, user, sha, password):
+def setSNMPV3_HP(self, user, sha, password):
     configSNMPV3 = [
         'configure',
         'no snmpv3 enable',  # Reset SNMPv3
