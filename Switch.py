@@ -52,7 +52,7 @@ def setSNMPV3_HP(self, user, sha, password):
         'configure',
         'no snmpv3 enable',  # Reset SNMPv3
         'snmpv3 enable',  # Enable SNMPv3
-        f'snmpv3 user {user} auth sha {sha} priv AES128 {password}',  # Create SNMPv3 user
+        f'snmpv3 user {user} auth sha {sha} priv AES 128 {password}',  # Create SNMPv3 user
         'show snmpv3 user',  # Verify configuration
         'snmpv3 restricted-access'
     ]
